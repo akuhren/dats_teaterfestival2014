@@ -1,71 +1,22 @@
 var	isTouching = false; //Flag for whether or not the user is currently touching the screen
 
-function linkMod() {	
+function link_mod() {	
 
-	$('.nav_link').on('morph', function() {
+	$('a').on('morph', function() {
 		$(this).data("link", $(this).attr("href"));
 		$(this).attr("href", "javascript:preventDefault()");
 	});
 	
-	$('.nav_link').trigger("morph");
-
 
 	$('.vis-mere').on('morph', function() {
-		$(this).attr("href", "javascript:preventDefault()");
 		$(this).data("number", this.id.slice(-2));
+		$(this).data("old_text", "Luk");
 	});
 	
-	$('.vis-mere').trigger("morph");
+	$('a').trigger("morph");
+	
+	$('.beskrivelse').css("display", "none");
 
-	/**
-	 * Fired when an item is being touched.
-	 */
-	$('.vis-mere').on("touchstart MSPointerDown", function(){
-	  if(isTouching) return false;
-	  $(this).data("moved", false);
-	
-	  isTouching = true;
-	  
-	  return false;
-	});
-
-
-	/**
-	 * Fired when the user moves his/her finger.
-	 * If we detect a move, we're not interested in the "tap" anymore
-	 */
-	$('.vis-mere').on("touchmove MSPointerMove", function(){
-	  	$(this).data("moved", true);
-	  	return false;
-	});
-	
-	
-	/**
-	 * Fired when the touch has ended.
-	 * If e.currentTarget.moved is true, then the user moved his/her finger while
-	 * touching this item so we "cancel" the tap.
-	 */
-	$('.vis-mere').on("touchend MSPointerUp", function(){
-	  	isTouching = false;
-	  	
-	  	if(!$(this).data("moved")) {
-	  		var no = $(this).data("number");
-			if($("#beskrivelse"+no).css("display") == "none"){
-				$("#beskrivelse"+no).css("display", "block");
-				$('html,body').animate({scrollTop: $("#overskrift"+no).offset().top}, 'slow');
-				$(this).html("Luk");
-			} else {
-				$("#beskrivelse"+no).css("display", "none");
-				$(this).html("Vis mere...");
-			}
-		
-		}
-	  	
-	  	delete $(this).data("moved"); //Don't need our flag anymore
-	  	
-	  	return false;
-	});
-	
 	$('.ext_link').click(function(e) {
 		e.preventDefault();
 		var url = $(this).attr("href");
@@ -77,7 +28,7 @@ function linkMod() {
 	/**
 	 * Fired when an item is being touched.
 	 */
-	$('.nav_link').on("touchstart MSPointerDown", function(){
+	$('a').on("touchstart MSPointerDown", function(){
 	  if(isTouching) return false;
 	  $(this).data("moved", false);
 
@@ -91,7 +42,7 @@ function linkMod() {
 	 * Fired when the user moves his/her finger.
 	 * If we detect a move, we're not interested in the "tap" anymore
 	 */
-	$('.nav_link').on("touchmove MSPointerMove", function(){
+	$('a').on("touchmove MSPointerMove", function(){
 	  	$(this).data("moved", true);
 	  	return false;
 	});
@@ -102,11 +53,16 @@ function linkMod() {
 	 * If e.currentTarget.moved is true, then the user moved his/her finger while
 	 * touching this item so we "cancel" the tap.
 	 */
-	$('.nav_link').on("touchend MSPointerUp", function(){
+	$('a').on("touchend MSPointerUp", function(){
 	  	isTouching = false;
   	
 	  	if(!$(this).data("moved")) {
-			window.open($(this).data("link"), "_self");
+			if($(this).hasClass("vis-mere")){
+				info_expand($(this).data("number"));
+			} else {
+				var target = ($(this).hasClass("ext_link")) ? "_system" : "_self";
+				window.open($(this).data("link"), target);
+			}
 		}
   	
 	  	delete $(this).data("moved"); //Don't need our flag anymore
@@ -117,3 +73,20 @@ function linkMod() {
 
 }
 
+function info_expand(no) {
+	vis_knap = $("#mere"+no);
+	beskrivelse = $("#beskrivelse"+no);
+
+	var new_text = vis_knap.data("old_text");
+	vis_knap.data("old_text", vis_knap.html());
+
+	if(beskrivelse.css("display") == "none"){
+		beskrivelse.css("display", "block");
+		$('html,body').animate({scrollTop: $("#overskrift"+no).offset().top}, 'slow');
+	} else {
+		beskrivelse.css("display", "none");
+	}
+
+	vis_knap.html(new_text);
+	
+}

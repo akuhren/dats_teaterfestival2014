@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Tue Apr 22 2014 12:22:45 GMT+0000 (UTC) -->
+<!-- Last Published: Tue Apr 22 2014 17:15:58 GMT+0000 (UTC) -->
 <html data-wf-site="53342b2dc1e2f41e0a000b22">
 <head>
   <meta charset="utf-8">
@@ -93,8 +93,7 @@
         <div class="w-row">
           <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="button momentum-knap vaerkstedsscenen-knap turkis-knap" href="f-kort-tre-ege-skole.html">Tre Ege Skolen</a>
           </div>
-          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
-            <img class="program-fotos" src="images/Teaterr%C3%B8dderne_200x200_til%20app_01.jpg" width="77" height="77" alt="53411f69fafada8c030004be_Teaterr%C3%B8dderne_200x200_til%20app_01.jpg"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift02" id="mere02">Vis video</a>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift02" id="mere02">Vis video</a>
           </div>
         </div>
       </div>
@@ -113,7 +112,9 @@
       <h6>Slut</h6>
     </div>
     <div class="w-clearfix info-blok">
-      <a class="w-inline-block billedblok" href="#"></a>
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/Teaterr%C3%B8dderne_200x200_til%20app_01.jpg" width="77" height="77" alt="53411f69fafada8c030004be_Teaterr%C3%B8dderne_200x200_til%20app_01.jpg">
+      </a>
       <h5 class="forestillinger-teater-navn">Teaterrødderne</h5>
       <div class="forestillinger-tekst">DATO: 10. MAJ / KL: 09.15 – 10.30&nbsp;</div>
     </div>
@@ -130,7 +131,7 @@
         </div>
       </div>
     </div>
-    <div class="beskrivelse" id="beskrivelse3">
+    <div class="beskrivelse" id="beskrivelse03">
       <div class="w-container">
         <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
           <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FLJrd7p1igSo%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLJrd7p1igSo&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FLJrd7p1igSo%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
@@ -165,7 +166,7 @@
         </div>
       </div>
     </div>
-    <div class="beskrivelse" id="beskrivelse4">
+    <div class="beskrivelse" id="beskrivelse04">
       <div class="w-container">
         <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
           <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F9fH1vm9OEtM%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9fH1vm9OEtM&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2F9fH1vm9OEtM%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
@@ -230,7 +231,7 @@
         </div>
       </div>
     </div>
-    <div class="beskrivelse" id="beskrivelse6">
+    <div class="beskrivelse" id="beskrivelse06">
       <div class="w-container">
         <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
           <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FbzZ2N2AfRzw%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbzZ2N2AfRzw&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FbzZ2N2AfRzw%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
@@ -263,7 +264,7 @@
         </div>
       </div>
     </div>
-    <div class="beskrivelse" id="beskrivelse7">
+    <div class="beskrivelse" id="beskrivelse07">
       <div class="w-container">
         <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
           <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FloXLmsRHzrY%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DloXLmsRHzrY&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FloXLmsRHzrY%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
@@ -296,7 +297,7 @@
         </div>
       </div>
     </div>
-    <div class="beskrivelse" id="beskrivelse8">
+    <div class="beskrivelse" id="beskrivelse08">
       <div class="w-container">
         <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
           <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FY2FbgCf8-g4%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DY2FbgCf8-g4&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FY2FbgCf8-g4%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
@@ -445,5 +446,11 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  <script type="text/javascript" src="js/link_mod.js"></script>
+  <script>
+    $(document).ready(function() {
+    	link_mod();
+    });
+  </script>
 </body>
 </html>

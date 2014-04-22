@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created in Webflow. http://www.webflow.com-->
-<!-- Last Published: Tue Apr 22 2014 09:37:13 GMT+0000 (UTC) -->
+<!-- Last Published: Tue Apr 22 2014 17:15:59 GMT+0000 (UTC) -->
 <html data-wf-site="53342b2dc1e2f41e0a000b22">
 <head>
   <meta charset="utf-8">
@@ -35,10 +35,10 @@
     <div class="w-nav" data-collapse="small" data-animation="default" data-duration="400" data-contain="1">
       <div class="w-container navigation-bar navbarstreg navbaringenstreg">
         <a class="w-nav-brand home" href="index.html">
-          <img class="tilbagepil" src="images/glyphicons_020_home.png" alt="532819bb51afcf551e00056d_glyphicons_020_home.png">
+          <img class="tilbagepil nav_link" src="images/glyphicons_020_home.png" alt="532819bb51afcf551e00056d_glyphicons_020_home.png">
         </a>
         <a class="w-clearfix w-inline-block luk" href="index.html">
-          <img class="luk" src="images/glyphicons_207_remove_2.png" alt="Luk">
+          <img class="luk nav_link" src="images/glyphicons_207_remove_2.png" alt="Luk">
         </a>
         <nav class="w-nav-menu" role="navigation"><a class="w-nav-link menu-open" href="index.html">Home</a><a class="w-nav-link menu-open" href="program.html">Program</a><a class="w-nav-link menu-open" href="forestillinger.html">Forestillinger</a><a class="w-nav-link menu-open" href="forestillinger.html">Billetter</a>
           <a
@@ -228,5 +228,11 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script type="text/javascript" src="js/webflow.js"></script>
   <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+  <script type="text/javascript" src="js/link_mod.js"></script>
+  <script>
+    $(document).ready(function() {
+    	link_mod();
+    });
+  </script>
 </body>
 </html>
