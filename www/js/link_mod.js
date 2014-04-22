@@ -1,7 +1,6 @@
 var	isTouching = false; //Flag for whether or not the user is currently touching the screen
 
-$(document).ready(function() {
-	
+function linkMod() {	
 
 	$('.nav_link').on('morph', function() {
 		$(this).data("link", $(this).attr("href"));
@@ -116,5 +115,5 @@ $(document).ready(function() {
 	});
 	
 
-});
+}
 
