@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<!-- This site was created in Webflow. http://www.webflow.com-->
+<!-- Last Published: Tue Apr 22 2014 12:22:45 GMT+0000 (UTC) -->
+<html data-wf-site="53342b2dc1e2f41e0a000b22">
+<head>
+  <meta charset="utf-8">
+  <title>Teaterfestival - Forestillinger</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Webflow">
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="css/webflow.css">
+  <link rel="stylesheet" type="text/css" href="css/dats-teaterfestival-2014.webflow.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+  <script>
+    WebFont.load({
+      google: {
+        families: ["Oswald:300,400,700","Montserrat:400,700"]
+      }
+    });
+  </script>
+  <script type="text/javascript" src="js/modernizr.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico">
+</head>
+<body>
+  <div class="logo-baggrund" id="top-mere-1">
+    <img class="logo" src="images/DATS%20teaterfesival%202014%20logo.png" alt="5334312cc1e2f41e0a000bc6_DATS%20teaterfesival%202014%20logo.png">
+  </div>
+  <div class="bund">
+    <h3>FORESTILLINGER</h3>
+  </div>
+  <div class="w-container">
+    <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-contain="1">
+      <div class="w-container navigation-bar">
+        <a class="w-clearfix w-inline-block luk" href="index.html">
+          <img class="luk" src="images/glyphicons_207_remove_2.png" alt="Luk">
+        </a>
+        <a class="w-nav-brand" href="index.html">
+          <img class="tilbagepil" src="images/glyphicons_020_home.png" alt="532819bb51afcf551e00056d_glyphicons_020_home.png">
+        </a>
+        <nav class="w-nav-menu" role="navigation"><a class="w-nav-link menu-open" href="index.html">Home</a><a class="w-nav-link menu-open" href="program.html">Program</a><a class="w-nav-link menu-open" href="forestillinger.html">Forestillinger</a><a class="w-nav-link menu-open" href="kort.html">Billetter</a><a class="w-nav-link menu-open"
+          href="kort.html">Kort</a><a class="w-nav-link menu-open" href="kort.html">Publikumsafstemning</a>
+        </nav>
+      </div>
+      <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease-in"></div>
+    </div>
+  </div>
+  <div class="forestilling1 margin">
+    <div class="w-container forestilling-overskrift overskrift-streg">
+      <h6>Den luft andre indånder</h6>
+    </div>
+    <div>
+      <div class="w-clearfix kort-pr-sentation">
+        <a class="w-clearfix w-inline-block billedblok" href="#">
+          <img class="w-hidden-main w-hidden-medium program-fotos" src="images/MAS_200x200_til%20app.jpg" alt="53411bd48a0a938a03000333_MAS_200x200_til%20app.jpg">
+        </a>
+        <div class="w-container info-blok">
+          <h5 class="forestillinger-teater-navn">Midtfyns Amatør- Scene</h5>
+          <div class="forestillinger-tekst">DATO:&nbsp;9. APRIL/ KL: 19.15 - 20.15&nbsp;</div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div>
+        <div class="w-container">
+          <div class="forestilling-tekst beskrivelse-tekst">Pølse og Pind er fanget i ensomhed og hverdagen kører i tomgang. Men de drømmerom, at deres liv skal være meningsfylds. Dramatker: Line Knutzon</div>
+        </div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="button momentum-knap momentum-cafe-knap gul-knap" href="f-kort-ryslinge-forsamlingshus.html">Ryslinge Forsamlingshus</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 blankcolumn"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling2 margin">
+    <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift02">
+      <h6>Bremermusikanterne</h6>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/7_kanten_200x200%20foto%20til%20app.jpg" alt="53411e848a0a938a03000347_7_kanten_200x200%20foto%20til%20app.jpg">
+      </a>
+      <div class="w-container info-blok">
+        <h5 class="forestillinger-teater-navn">7-kanten</h5>
+        <div class="forestillinger-tekst">DATO:&nbsp;9. APRIL / KL: 21.25 – 22.10&nbsp;</div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div class="w-container">
+          <div class="forestilling-tekst beskrivelse-tekst">Ejeren ønsker at aflive 4 udslidte husdyr. Men dyrene flygter- og som i alle eventyr-ender det hele lykkeligt. Dramatikere: Elise og Gregers Westh-Mortensen - frit efter Brødrene Grimm.&nbsp;</div>
+        </div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="button momentum-knap vaerkstedsscenen-knap turkis-knap" href="f-kort-tre-ege-skole.html">Tre Ege Skolen</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 w-clearfix">
+            <img class="program-fotos" src="images/Teaterr%C3%B8dderne_200x200_til%20app_01.jpg" width="77" height="77" alt="53411f69fafada8c030004be_Teaterr%C3%B8dderne_200x200_til%20app_01.jpg"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift02" id="mere02">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse02">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FkLPCWwR6b3w%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DkLPCWwR6b3w&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FkLPCWwR6b3w%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling3 margin">
+    <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift03">
+      <h6>Slut</h6>
+    </div>
+    <div class="w-clearfix info-blok">
+      <a class="w-inline-block billedblok" href="#"></a>
+      <h5 class="forestillinger-teater-navn">Teaterrødderne</h5>
+      <div class="forestillinger-tekst">DATO: 10. MAJ / KL: 09.15 – 10.30&nbsp;</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">En flok midaldrende mennesker som ser tilbage på livets mangfoldigheder. Og hvordan er livet nu??? Et meget sjovt og livgivende stykke. Dramatiker: Kamilla Wargo Brekling.</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button momentum-knap r-d-scene" href="f-ryslinge-friskole.html">Ryslinge Friskole</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift03" id="mere03">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse3">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FLJrd7p1igSo%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DLJrd7p1igSo&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FLJrd7p1igSo%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling4 margin">
+    <div>
+      <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift04">
+        <h6>Lykke Bjørn</h6>
+      </div>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/Hvas_200x200_til%20app_01.jpg" alt="53412088fafada8c030004c6_Hvas_200x200_til%20app_01.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn">Hvidovre Amatørscene</h5>
+      <div class="forestillinger-tekst">DATO: 10. MAJ / KL: 11.00 – 12.25</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">Da den selvudslettende Karin Lykke mister sin mor, falder hele hendes verden sammen. Men en dag møder hun den hjemløse Johanne Bjørn og kaster sig ud i en berusende kærlighedsspiral. Dramatiker: Line Mørkeby.&nbsp;</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button uteater-knap gul-scene" href="f-kort-ryslinge-forsamlingshus.html">Ryslinge Forsamlingshus</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift04" id="mere04">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse4">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F9fH1vm9OEtM%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D9fH1vm9OEtM&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2F9fH1vm9OEtM%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling5">
+    <div>
+      <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift5">
+        <h6>At leve med Shakespeare</h6>
+      </div>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/Handsken_200x200_til%20app.jpg" alt="534120e1542f308752000553_Handsken_200x200_til%20app.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn">Handsken</h5>
+      <div class="forestillinger-tekst">DATO: 10. APRIL&nbsp;&nbsp;/ KL:&nbsp;11.00 – 12.25
+        <br>&nbsp;</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-container">
+          <div class="forestilling-tekst beskrivelse-tekst">Skuespilleren Victor Jensen giver smagsprøver på sine mange Shakespeare roller – og hans egen liv blander sig ind i rollerne, så man forstår dem på en ny og aktuel måde. Dramatiker: Niels Brunse. &nbsp;</div>
+        </div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button uteater-knap turkis-knap" href="f-kort-tre-ege-skole.html">Tre Ege Skole</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6 blankcolumn"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling6">
+    <div>
+      <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease-in"></div>
+    </div>
+    <div>
+      <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift06">
+        <h6>Designerbørn</h6>
+      </div>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/Hemli_200x200_til%20app.jpg" width="77" alt="5341212c542f308752000559_Hemli_200x200_til%20app.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn">Det hem´lige teater</h5>
+      <div class="forestillinger-tekst">DATO: 10. MAJ / KL: 13.30 – 14.40&nbsp;</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">I et dystopisk samfund, bestilles og designes børn efter ønske. Men en ung mand møder en ung kvinde der har valgt at stå udenfor. Dramatiker: Katrine &nbsp;Matzen.</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button teater95b r-d-knap" href="f-ryslinge-friskole.html">Ryslinge Friskole</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift06" id="mere06">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse6">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FbzZ2N2AfRzw%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DbzZ2N2AfRzw&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FbzZ2N2AfRzw%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling7">
+    <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift07">
+      <h6>Sightseeing</h6>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/Billede2.jpg" alt="5323017a69eb56f30700070a_Billede2.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn">Nivå Amatør Teater</h5>
+      <div class="forestillinger-tekst">DATO: 10 MAJ / KL: 16.20 – 17.10</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">Den gamle husjomfru, Olga, viser en turist, en usynlig ung mand,&nbsp; rundt i den enorme familieborg. Undervejs kommer hun til at udstille sit herskab. &nbsp;Dramatiker Finn Methling.</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button teater95b gul-knap" href="f-kort-ryslinge-forsamlingshus.html">Ryslinge Forsamlingshus</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift07" id="mere07">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse7">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FloXLmsRHzrY%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DloXLmsRHzrY&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FloXLmsRHzrY%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling8">
+    <section class="w-container forestilling-overskrift overskrift-streg" id="overskrift08">
+      <h6>Syndflod</h6>
+    </section>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/GAS_200x200_til%20app.jpg" alt="534127b8542f308752000573_GAS_200x200_til%20app.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn">Glostrup Amatør Scene</h5>
+      <div class="forestillinger-tekst">DATO: 10. MAJ / KL: 17.40 – 18.55</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">En grotesk fortælling om tre vidt forskellige kvinder, der mødes i et sommerhus for at tilbringe deres livs sidste aften sammen. Dramatiker: Julie Kirkegaard.&nbsp;</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button teater95b turkis-knap" href="f-kort-tre-ege-skole.html">Tre Ege Skolen</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift08" id="mere08">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse8">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FY2FbgCf8-g4%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DY2FbgCf8-g4&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FY2FbgCf8-g4%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling10">
+    <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift10">
+      <h6>Kalak</h6>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/Hypleks_77x77_100dpi.jpg" alt="534399f6c6258e8e1700011b_Hypleks_77x77_100dpi.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn"></h5>
+      <div class="forestillinger-tekst">DATO: 10 MAJ / KL: 19.15 – 19.45</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">En ung grønlandsk mand&nbsp; må gennemleve en masse identitesbevægende udfordringer, i jagten efter sit livs kærlighed i et land hvor kultur, traditioner og kropsprog er fremmed og forundrende. Dramatikere, de medvirkende: &nbsp;Tanja &nbsp;Frederiksen,
+        Sofie Johanna Møller, Sonja Kjøller, Ann Elton, Mette From og Gustav Jacobsen.&nbsp;</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button teater95b r-d-knap" href="f-ryslinge-friskole.html">Ryslinge Friskole</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift10" id="mere10">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse10">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FChU4WJicPP4%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DChU4WJicPP4&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FChU4WJicPP4%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease-in"></div>
+  </div>
+  <div class="forestilling11">
+    <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift11">
+      <h6>Så ligger man der</h6>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos billede-krop-sjael-ar" src="images/Impro-vis-200x200_til%20app.jpg" alt="53412976fb26358852000515_Impro-vis-200x200_til%20app.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn">Impro-vis&nbsp;</h5>
+      <div class="forestillinger-tekst">DATO: 10 MAJ / KL:&nbsp;20.10 – 21.10</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">Kristian er ved at gå i hundene, fordi kæresten Heidi har forladt ham. Han indleder en håbløs og tåbelig kamp for at få hende tilbage. Dramatiker: Henrik Vestergaard Nielsen.&nbsp;
+      </div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button teater95b turkis-knap" href="f-kort-tre-ege-skole.html">Tre Ege Skole</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift11" id="mere11">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse11">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 75%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2Fl43xQ09r82A%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Dl43xQ09r82A&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2Fl43xQ09r82A%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease-in"></div>
+  </div>
+  <div class="forestilling12">
+    <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift12">
+      <h6>Kollision</h6>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/Teaterkatten_200x200_til%20app_01.jpg" alt="53412984fb26358852000519_Teaterkatten_200x200_til%20app_01.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn">Teaterkatten</h5>
+      <div class="forestillinger-tekst">DATO: 11. MAJ / KL: 09.15 – 10.35</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">Under to desperate kvinders bankrøveri holder de en bank-funktionær og en jounalist som gidsler, mens en asteroide tordner mod jorden og truer med total udslettelse. Dramatiker: Kim Fupz Aakeson.&nbsp;</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button teater95b turkis-knap" href="f-kort-tre-ege-skole.html">Tre Ege Skolen</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift12" id="mere12">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse12">
+      <div class="w-nav" data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease-in"></div>
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FEFABhYriiR0%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DEFABhYriiR0&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2FEFABhYriiR0%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="forestilling13">
+    <div class="w-container forestilling-overskrift overskrift-streg" id="overskrift13">
+      <h6>Romeo&amp;Julie</h6>
+    </div>
+    <div class="w-clearfix">
+      <a class="w-clearfix w-inline-block billedblok" href="#">
+        <img class="program-fotos" src="images/Diktaturet_200x200_til%20app.jpg" alt="53412ad5542f308752000583_Diktaturet_200x200_til%20app.jpg">
+      </a>
+      <h5 class="forestillinger-teater-navn">Diktaturet</h5>
+      <div class="forestillinger-tekst">DATO: 11. MAJ / KL: 11.00 – 12.25</div>
+    </div>
+    <div class="w-container">
+      <div class="forestilling-tekst beskrivelse-tekst">Kærligheden gør folk sindsyge og alle der lider af den bør indlægges. Det&nbsp; bliver Romeo og Julie, efter deres genoplivning. Kan kærligheden udryddes? Frit efter William Shakespeare. &nbsp;</div>
+    </div>
+    <div>
+      <div>
+        <div class="w-row">
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button teater95b r-d-knap" href="f-ryslinge-friskole.html">Ryslinge Friskole</a>
+          </div>
+          <div class="w-col w-col-6 w-col-small-6 w-col-tiny-6"><a class="momentum-knap button vis-mere vis-mere-knap" href="#overskrift13" id="mere13">Vis video</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="beskrivelse" id="beskrivelse13">
+      <div class="w-container">
+        <div class="w-embed w-video" style="padding-top: 56.20608899297424%;">
+          <iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F7tMBL3hci8g%3Ffeature%3Doembed&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D7tMBL3hci8g&amp;image=http%3A%2F%2Fi1.ytimg.com%2Fvi%2F7tMBL3hci8g%2Fhqdefault.jpg&amp;key=c4e54deccf4d4ec997a64902e9a30300&amp;type=text%2Fhtml&amp;schema=youtube"
+          scrolling="no" frameborder="0" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script type="text/javascript" src="js/webflow.js"></script>
+  <!--[if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+</body>
+</html>
