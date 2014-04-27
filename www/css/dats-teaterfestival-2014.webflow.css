@@ -666,6 +666,8 @@ p {
 }
 @media (max-width: 479px) {
   body {
+    overflow-x: hidden;
+    overflow-y: hidden;
     margin-bottom: 0px;
   }
   h1 {
