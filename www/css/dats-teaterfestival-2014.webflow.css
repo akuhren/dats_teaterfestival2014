@@ -665,6 +665,9 @@ p {
   }
 }
 @media (max-width: 479px) {
+  body {
+    margin-bottom: 0px;
+  }
   h1 {
     position: static;
     left: 0px;
@@ -816,7 +819,7 @@ p {
   }
   .button.menuknap {
     height: 36px;
-    margin-top: 28px;
+    margin-top: 20px;
     padding-top: 6px;
     border-color: red;
     border-radius: 4px;
@@ -1161,25 +1164,26 @@ p {
     margin-bottom: 0px;
     padding-top: 0px;
     padding-bottom: 0px;
-    border-bottom: 3px none white;
+    border-bottom: 3px none #0b3033;
     background-image: -webkit-linear-gradient(#5bf7fc, #18727a);
     background-image: -o-linear-gradient(#5bf7fc, #18727a);
     background-image: linear-gradient(#5bf7fc, #18727a);
   }
   .map.map2bagg {
     padding-top: 5px;
+    border-top: 3px solid #22a6b3;
     border-bottom-style: solid;
-    border-bottom-color: white;
+    border-bottom-color: #18727a;
     background-image: -webkit-linear-gradient(#18727a, #0b3033), -webkit-linear-gradient(#22a6b3, #18727a);
     background-image: -o-linear-gradient(#18727a, #0b3033), -o-linear-gradient(#22a6b3, #18727a);
     background-image: linear-gradient(#18727a, #0b3033), linear-gradient(#22a6b3, #18727a);
   }
   .map.map2bagg.mapsolo {
-    height: 100%;
+    height: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
     border-bottom-style: none;
     border-bottom-width: 0px;
     background-image: -webkit-linear-gradient(#5bf7fc, #0b3033), -webkit-linear-gradient(#5bf7fc, #18727a);
@@ -1189,7 +1193,7 @@ p {
   .map.map3bagg {
     padding-top: 5px;
     border-bottom-style: solid;
-    border-bottom-color: white;
+    border-bottom-color: #18727a;
     background-image: -webkit-linear-gradient(#0b3033, black), -webkit-linear-gradient(#22a6b3, #18727a);
     background-image: -o-linear-gradient(#0b3033, black), -o-linear-gradient(#22a6b3, #18727a);
     background-image: linear-gradient(#0b3033, black), linear-gradient(#22a6b3, #18727a);
@@ -1198,15 +1202,18 @@ p {
     margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 56px;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid #18727a;
     background-image: -webkit-linear-gradient(black, #18727a);
     background-image: -o-linear-gradient(black, #18727a);
     background-image: linear-gradient(black, #18727a);
   }
   .map.map2bbagg {
-    padding-top: 97px;
+    height: 1px;
+    padding-top: 0px;
     background-color: white;
-    background-image: none;
+    background-image: -webkit-linear-gradient(#0b3033, #18727a);
+    background-image: -o-linear-gradient(#0b3033, #18727a);
+    background-image: linear-gradient(#0b3033, #18727a);
   }
   .map.map1bbagg {
     background-image: -webkit-linear-gradient(#18727a, #22a6b3);
