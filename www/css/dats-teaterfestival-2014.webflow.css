@@ -668,7 +668,6 @@ p {
   body {
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 100%;
     margin-bottom: 0px;
   }
   h1 {
@@ -940,7 +939,6 @@ p {
   .bund {
     overflow-x: hidden;
     overflow-y: hidden;
-    height: 100%;
     max-height: 459px;
     margin-bottom: 0px;
     padding-bottom: 0px;
