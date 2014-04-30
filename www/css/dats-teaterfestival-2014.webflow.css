@@ -666,7 +666,9 @@ p {
 }
 @media (max-width: 479px) {
   body {
-    max-height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
     margin-bottom: 0px;
   }
   h1 {
@@ -936,7 +938,10 @@ p {
     border: 1px solid black;
   }
   .bund {
-    max-height: 500px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 100%;
+    max-height: 459px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     background-image: -webkit-linear-gradient(white, #5bf7fc);
@@ -945,10 +950,12 @@ p {
     line-height: 21px;
   }
   .bund1 {
+    overflow-x: hidden;
+    overflow-y: hidden;
     height: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-bottom: 168px;
+    padding-bottom: 180px;
     border-bottom-style: none;
     border-bottom-color: transparent;
     background-image: -webkit-linear-gradient(white, #45cad6);
