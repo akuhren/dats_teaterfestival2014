@@ -666,6 +666,7 @@ p {
 }
 @media (max-width: 479px) {
   body {
+    max-height: 100%;
     margin-bottom: 0px;
   }
   h1 {
