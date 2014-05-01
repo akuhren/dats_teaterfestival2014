@@ -2,7 +2,7 @@
 
 use 5.016;
 
-my @sizes = (57, 72, 114, 120, 144);
+my @sizes = (57, 72, 114, 120, 144, 512);
 my $file = $ARGV[0];
 
 unless (-e $file){
