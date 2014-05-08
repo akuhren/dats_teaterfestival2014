@@ -55,8 +55,9 @@ function link_mod() {
 	 */
 	$('a').on("touchend MSPointerUp", function(){
 	  	isTouching = false;
-  	
+
 	  	if(!$(this).data("moved")) {
+
 			if($(this).hasClass("vis-mere")){
 				info_expand($(this).data("number"));
 			} else {
@@ -79,6 +80,7 @@ function info_expand(no) {
 
 	var new_text = vis_knap.data("old_text");
 	vis_knap.data("old_text", vis_knap.html());
+
 
 	if(beskrivelse.css("display") == "none"){
 		beskrivelse.css("display", "block");
